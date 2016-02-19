@@ -45,7 +45,7 @@ li {list-style-type: none;}
 h1, h2, h3, p {font-family: museo-sans-rounded, arial;}
 h1, h3 {font-weight: 900;text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);}
 h3 {color: #FFF; font-size: 28px; line-height: 1.2em;}
-h2, .pk-quote p {font-weight: 700;}
+h2, .pk-quote p {font-weight: normal;}
 p {color: #FFF; font-size: 16px; font-weight: normal;}
 strong{color: #fff568;}
 
@@ -112,7 +112,7 @@ strong{color: #fff568;}
 .pk-games {background-color: #fe8069;}
 .pk-best {background-color: #37c887;}
 .slider-desenhos {margin-top: 20px;}
-.slider-desenhos p { color: rgba(255,255,255, 0.7); font-weight: 700;}
+.slider-desenhos p { color: rgba(255,255,255, 0.7); font-weight: normal;}
 .item p {margin-top: 10px; text-align: center;}
 .item img {width: 100%;}
 
@@ -190,4 +190,7 @@ strong{color: #fff568;}
 
 .toon img{
     width: 70%;
+}
+.affix{
+	
 }

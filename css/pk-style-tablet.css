@@ -1,6 +1,6 @@
 .pk-header h1 {font-size: 45px;}
 .pk-main h1 {font-size: 32px;text-align: left;}
-.pk-main li p{text-align: left; font-size: 15px; line-height: 1.2em; font-weight: 700;}
+.pk-main li p{text-align: left; font-size: 15px; line-height: 1.2em; font-weight: normal;}
 .pk-main strong {display: block; font-size: 18px; font-weight: 900;}
 .pk-toons .pk-description {margin-top: -184px;}
 .pk-library .pk-description {margin-top: -250px;}
@@ -20,9 +20,11 @@
 }
 
 .pk-header {
-    background-size: auto 100%;
-    background-position: bottom;
-    height: 1023px;
+    background-image: url("../imgs/world-bg-high.jpg");
+    background-size: auto 137%;
+    background-position-x: 60%;
+    background-position-y: bottom;
+    height: 1104px;
 }
 .toon img{
     width: 70%;

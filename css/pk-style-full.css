@@ -8,18 +8,18 @@
 }
 
 .bnt-down{
-    height: 64px;
+    height: 65px;;
 }
 
 .btn-quote {padding-left: 60px; padding-right: 60px;}
-.subcall {;}
+.subcall {}
 .bnt-down {display: block;}
 header {padding-bottom: 0;}
 
-.pk-header h1 {font-size: 38px; color: #FFF;}
-.pk-header h3 {font-size: 20px;margin-top: -181px; color: #FFF;}
+.pk-header h1 {font-size: 43px; color: #FFF;width: 100%;}
+.pk-header h3 {font-size: 20px;margin-top: -167px; color: #FFF;font-weight: normal;width: 90%;}
 .pk-main h1 {font-size: 42px; text-align: left; margin-top:100px;}
-.pk-main li p{text-align: left; font-size: 17px; font-weight: 700; line-height: 1.2em;}
+.pk-main li p{text-align: left; font-size: 17px; font-weight: normal; line-height: 1.2em;}
 .pk-main strong {display: inline; font-size: 26px; font-weight: 900;}
 .pk-toons .pk-description {margin-top: -171px;}
 .pk-library .pk-description {margin-top: -237px;}

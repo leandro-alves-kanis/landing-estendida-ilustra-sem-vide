@@ -3,7 +3,7 @@
  */
 
 .pk-header h1 {font-size: 26px;}
-.pk-header h3 {font-size: 19px; font-weight: 700;}
+.pk-header h3 {font-size: 19px; font-weight: normal;}
 .pk-header h1, .pk-header h3 {
 	color: #FFF;
 	text-shadow: 0px 2px 2px rgba(0,0,0,0.2);;
@@ -22,7 +22,7 @@ body {text-align: center !important;}
 .logo-playkids {margin: 0;}
 
 .pk-main h1 {font-size: 30px;}
-.pk-main li p{text-align: left; font-size: 17px; font-weight: 700;}
+.pk-main li p{text-align: left; font-size: 17px; font-weight: normal;}
 .pk-main strong {display: block; font-size: 23px; font-weight: 900;}
 .pk-description {margin-top: 22px;}
 
