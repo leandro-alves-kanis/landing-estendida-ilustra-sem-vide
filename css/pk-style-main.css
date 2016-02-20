@@ -98,10 +98,12 @@ strong{color: #fff568;}
 
 .bnt-down {
 	background-image: url("../imgs/bnt-down.png");
-	padding: 32px 23px;
 	background-repeat: no-repeat;
 	text-indent: -9999px;
-	background-size: 100%;;
+	background-size: 100%;
+	padding: 32px 23px;
+	position: absolute;
+	margin-top: -60px;;
 }
 .bnt-down:hover {background-image: url("../imgs/bnt-down-hover.png");}
 
@@ -188,9 +190,45 @@ strong{color: #fff568;}
 	opacity: 0.9;
 }
 
-.toon img{
+.toon img {
     width: 70%;
 }
 .affix{
-	
+    top: 0;
+}
+.navbar-brand {
+    padding: 0;
+    height: auto;
+    width: 108px;
+    margin-top: 16px;
+
+}
+.pk-navbar {
+	height: 82px;
+	background-color: #FFF;
+	z-index: 9990;
+	width: 100%;
+}
+.pk-navbar img {
+	margin: 25px 0 0 0;
+}
+.pk-navbar .btn-pk {
+	float: right;
+	font-size: 16px;
+	padding-bottom: 11px;
+	padding-top: 11px;
+}
+.affix-top.pk-arrow {
+	position: fixed;
+	bottom: 0;
+}
+.affix.pk-arrow {
+	position: relative;
+}
+.pk-navbar div:first-child{
+	position: relative;
+}
+.navbar-header {
+    width: 100%;
+    margin: 0 !important;;
 }

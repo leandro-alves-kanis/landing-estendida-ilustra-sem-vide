@@ -23,8 +23,18 @@
     <!-- slide -->
     <script src="js/jssor.slider.min.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
     <!-- video lightbox -->
     <script>
+    </script>
+
+    <!-- navbar top -->
+    <script type="text/javascript">
+      $('nav').affix({
+        offset: {
+          top: $('header').height()
+        }
+      }); 
     </script>
     
     <!-- Start Google Analytics Widget --> 
@@ -63,9 +73,6 @@
     })();
     </script>
     <!-- End ShopBack Code -->
-<style>
-
-</style>
   </head>
   <body>
   <!-- Google Tag Manager -->
@@ -78,7 +85,7 @@
   })(window,document,'script','dataLayer','GTM-NWNFV5');</script>
   <!-- End Google Tag Manager -->
 
-    <header class="pk-header">
+    <header id="pk-header" class="pk-header">
       <div class="container">
         <div class="row">
           <div class="col-md-12 pk-logo">
@@ -108,24 +115,19 @@
             <h3>Conteúdo da Disney, Nickelodeon, Cartoon Network e muito mais sem gastar seu plano de dados</h3>
           </div>
         </div>
-          
-        <div class="row">
-          <span class="col-md-1">
-            
-          <a class="glyphicon glyphicon-arrow-down bnt-down" aria-hidden="true" href="#main"></a>
-          </span>
-        </div>
       </div>
     </header>
-<nav class="navbar navbar-default" data-spy="affix" data-offset-top="1000">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-              <img alt="Brand" src="...">
-            </a>
-          </div>
+    <nav class="pk-navbar">
+      <div class="container">
+      <a class="glyphicon glyphicon-arrow-down bnt-down" aria-hidden="true" href="#main"></a>
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#pk-header">
+            <img src="imgs/logo-playkids.png" class="logo-playkids" alt="PlayKids">
+          </a>
+        <a href="https://sales.playkidsapp.com/landing" class="btn btn-primary btn-lg btn-pk">Comece seu mês grátis</a>
         </div>
-      </nav>
+      </div>
+    </nav>
     <section class="pk-main pk-toons" id="main">
       <div class="container">
         <div class="row" >
@@ -142,7 +144,7 @@
             <li><p><strong>Modo-bebê</strong> não interrompe a exibição</p></li>
           </div>
         </div>
-<div class="row slider-desenhos">
+      <div class="row slider-desenhos">
         <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 809px; height: 150px; overflow: hidden; visibility: hidden;">
           <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 809px; height: 150px; overflow: hidden;" class="toon">
             <div style="display: none;">
@@ -300,10 +302,12 @@ jssor_1_slider_init();
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>
-        jQuery(document).ready(function ($) {
+        jQuery(document).ready(function () {
+            $('nav').affix({offset: {top: $('header').height()}});
             var options = { $AutoPlay: true };
             var jssor_slider1 = new $JssorSlider$('slider1_container', options);
         });
+        
     </script>
 
   </body>

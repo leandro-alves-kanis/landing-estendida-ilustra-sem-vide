@@ -23,7 +23,7 @@ body {text-align: center !important;}
 
 .pk-main h1 {font-size: 30px;}
 .pk-main li p{text-align: left; font-size: 17px; font-weight: normal;}
-.pk-main strong {display: block; font-size: 23px; font-weight: 900;}
+.pk-main strong { font-size: 23px; font-weight: 900;}
 .pk-description {margin-top: 22px;}
 
 .device-full { display: none; width: 188px; }
@@ -36,4 +36,13 @@ body {text-align: center !important;}
 
 .toon img{
     width: 95%;
+}
+.navbar-brand>img{;
+	width: 100%;;
+	margin: 0;
+}
+.pk-navbar {height: 64px;
+}
+.pk-navbar .btn-pk {font-size: 13px;margin-top: 10px;margin-bottom: 10px;letter-spacing: 0;padding-left: 10px;padding-right: 10px;;;
+
 }

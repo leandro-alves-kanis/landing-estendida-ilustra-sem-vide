@@ -3,7 +3,9 @@
 	background-image: url("../imgs/world-bg-high.jpg");
 	background-position: bottom;
 }
-.bnt-down {display: block;}
+.bnt-down {
+    height: 85px;
+    display: block;}
 header {padding-bottom: 0;}
 .subcall {margin-bottom: 90px;}
 
