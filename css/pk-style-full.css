@@ -1,49 +1,20 @@
-/*
- * screen css
- */
-.pk-header {
-	background-image: url("../imgs/world-bg-high.jpg");
-	background-position: bottom;
-    background-size: 160%;;
-}
-
-.bnt-down{
-}
-
-.btn-quote {padding-left: 60px; padding-right: 60px;}
-.subcall {}
-.bnt-down {}
-header {padding-bottom: 0;}
-
-.pk-header h1 {font-size: 43px; color: #FFF;width: 100%;}
-.pk-header h3 {font-size: 20px; color: #FFF;font-weight: normal;width: 90%;margin-top: -167px;}
-.pk-main h1 {font-size: 42px; text-align: left; margin-top:100px;}
-.pk-main li p{text-align: left; font-size: 17px; font-weight: normal; line-height: 1.2em;}
-.pk-main strong {display: inline; font-size: 26px; font-weight: 900;}
-.pk-toons .pk-description {margin-top: -171px;}
-.pk-library .pk-description {margin-top: -237px;}
-.pk-games .pk-description {margin-top: -208px;}
-.pk-best .pk-description {margin-top: -211px;}
-.item {text-align: center;width: 143px;}
-.btn-play {width: 50%;}
-
-.device-full {margin-left: -169px; width: 645px; display: block;}
-.device-mobile {display: none;}
-
-.btn-play {
-	position: absolute;
-	top: 48px;
-	margin-left: 120px;
-}
-
-.btn-cartoon:before {
-    height: 88px;
-}
-
-.pk-navbar .btn-cartoon:before {
-    height: 60px;
-    margin-top:-26px;
-    margin-left: -75px;
-}
-
-.btn-caillou:before {margin-top: -35px; height:93px;}
+.pk-header{background-image:url(../imgs/world-bg-high.jpg);background-position:bottom;background-size:160%}
+.btn-quote{padding-left:60px;padding-right:60px}
+header{padding-bottom:0}
+.pk-header h1{font-size:43px;color:#FFF;width:100%}
+.pk-header h3{font-size:20px;color:#FFF;font-weight:400;width:90%;margin-top:-167px}
+.pk-main h1{font-size:42px;text-align:left;margin-top:100px}
+.pk-main li p{text-align:left;font-size:17px;font-weight:400;line-height:1.2em}
+.pk-main strong{display:inline;font-size:26px;font-weight:900}
+.pk-toons .pk-description{margin-top:-171px}
+.pk-library .pk-description{margin-top:-237px}
+.pk-games .pk-description{margin-top:-208px}
+.pk-best .pk-description{margin-top:-211px}
+.item{text-align:center;width:143px}
+.btn-play{width:50%}
+.device-full{margin-left:-169px;width:645px;display:block}
+.device-mobile{display:none}
+.btn-play{position:absolute;top:48px;margin-left:120px}
+.btn-cartoon:before{height:88px}
+.pk-navbar .btn-cartoon:before{height:60px;margin-top:-26px;margin-left:-75px}
+.btn-caillou:before{margin-top:-35px;height:93px}

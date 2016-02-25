@@ -1,18 +1,11 @@
-.pk-header{
-    background-size: 180%;
-	background-image: url("../imgs/world-bg-high.jpg");
-	background-position: bottom;
-}
-.bnt-down {
-    height: 85px;
-    display: block;}
-header {padding-bottom: 0;}
-.subcall {margin-bottom: 90px;}
-
-.pk-main h1 {font-size: 51px; text-align: left; margin-top:146px;}
-.pk-main li p{text-align: left; font-size: 21px; font-weight: normal; line-height: 1.2em;}
-.pk-main strong {display: inline; font-size: 30px; font-weight: 900;}
-.pk-toons .pk-description {margin-top: -177px;}
-.pk-library .pk-description {margin-top: -271px;}
-.pk-games .pk-description {margin-top: -271px;}
-.pk-best .pk-description {margin-top: -260px;}
+.pk-header{background-size:180%;background-image:url(../imgs/world-bg-high.jpg);background-position:bottom}
+.bnt-down{height:85px;display:block}
+header{padding-bottom:0}
+.subcall{margin-bottom:90px}
+.pk-main h1{font-size:51px;text-align:left;margin-top:146px}
+.pk-main li p{text-align:left;font-size:21px;font-weight:400;line-height:1.2em}
+.pk-main strong{display:inline;font-size:30px;font-weight:900}
+.pk-toons .pk-description{margin-top:-177px}
+.pk-library .pk-description{margin-top:-271px}
+.pk-games .pk-description{margin-top:-271px}
+.pk-best .pk-description{margin-top:-260px}

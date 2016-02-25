@@ -1,68 +1,25 @@
-/*
- * mobile css
- */
-
-.pk-header h1 {font-size: 26px;}
-.pk-header h3 {font-size: 19px; font-weight: normal;}
-.pk-header h1, .pk-header h3 {
-	color: #FFF;
-	text-shadow: 0px 2px 2px rgba(0,0,0,0.2);;
-}
-
-body {text-align: center !important;}
-.bnt-down {display: none;}
-.device-full { display: none;}
-.device-mobile {display: block;}
-.pk-header {
-	background-size: auto 100%;
-	background-position: 54% bottom;
-    height: 732px;
-}
-
-.logo-playkids {margin: 0;}
-
-.pk-main h1 {font-size: 30px;}
-.pk-main li p{text-align: left; font-size: 17px; font-weight: normal;}
-.pk-main strong { font-size: 23px; font-weight: 900; display: block;}
-.pk-description {margin-top: 22px;}
-
-.device-full { display: none; width: 188px; }
-.device-mobile {width: 347px;display: block;margin: 0 auto;}
-.btn-play {
-	position: absolute;top: -14px;width: 30px;;
-	background-size: 60%;
-	margin-left: 23%;
-}
-
-.toon img{
-    width: 95%;
-}
-.navbar-brand>img{;
-	width: 100%;;
-	margin: 0;
-}
-.pk-navbar {height: 64px;
-}
-.pk-navbar .btn-pk {font-size: 13px;margin-top: 10px;margin-bottom: 10px;letter-spacing: 0;padding-left: 10px;padding-right: 10px;;;
-
-}
-.btn-lg.btn-cartoon {
-	font-size: 15px;
-	letter-spacing: 0.06em;
-}
-
-.pk-navbar .btn-cartoon:before {
-	zoom:70%;
-	margin-left: -65px;
-	margin-top:-26px;
-	height:69px;
-}
-.pk-navbar .btn-cartoon {
-    text-indent: 38px;
-}
-.navbar-brand {
-    width: 86px;
-}
-.pk-navbar.affix {
-    height: 64px;
-}
+.pk-header h1{font-size:26px}
+.pk-header h3{font-size:19px;font-weight:400}
+.pk-header h1,.pk-header h3{color:#FFF;text-shadow:0 2px 2px rgba(0,0,0,0.2)}
+body{text-align:center!important}
+.bnt-down{display:none}
+.device-full{display:none}
+.device-mobile{display:block}
+.pk-header{background-size:auto 100%;background-position:54% bottom;height:732px}
+.logo-playkids{margin:0}
+.pk-main h1{font-size:30px}
+.pk-main li p{text-align:left;font-size:17px;font-weight:400}
+.pk-main strong{font-size:23px;font-weight:900;display:block}
+.pk-description{margin-top:22px}
+.device-full{display:none;width:188px}
+.device-mobile{width:347px;display:block;margin:0 auto}
+.btn-play{position:absolute;top:-14px;width:30px;background-size:60%;margin-left:23%}
+.toon img{width:95%}
+.navbar-brand>img{width:100%;margin:0}
+.pk-navbar{height:64px}
+.pk-navbar .btn-pk{font-size:13px;margin-top:10px;margin-bottom:10px;letter-spacing:0;padding-left:10px;padding-right:10px}
+.btn-lg.btn-cartoon{font-size:15px;letter-spacing:.06em}
+.pk-navbar .btn-cartoon:before{zoom:70%;margin-left:-65px;margin-top:-26px;height:69px}
+.pk-navbar .btn-cartoon{text-indent:38px}
+.navbar-brand{width:86px}
+.pk-navbar.affix{height:64px}
