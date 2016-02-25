@@ -23,7 +23,7 @@ body {text-align: center !important;}
 
 .pk-main h1 {font-size: 30px;}
 .pk-main li p{text-align: left; font-size: 17px; font-weight: normal;}
-.pk-main strong { font-size: 23px; font-weight: 900;}
+.pk-main strong { font-size: 23px; font-weight: 900; display: block;}
 .pk-description {margin-top: 22px;}
 
 .device-full { display: none; width: 188px; }
@@ -62,4 +62,7 @@ body {text-align: center !important;}
 }
 .navbar-brand {
     width: 86px;
+}
+.pk-navbar.affix {
+    height: 64px;
 }

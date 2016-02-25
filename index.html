@@ -28,14 +28,6 @@
     <script>
     </script>
 
-    <!-- navbar top -->
-    <script type="text/javascript">
-      $('nav').affix({
-        offset: {
-          top: $('header').height()
-        }
-      }); 
-    </script>
     
     <!-- Start Google Analytics Widget --> 
     <script>
@@ -74,7 +66,7 @@
     </script>
     <!-- End ShopBack Code -->
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".arrow" data-offset="50">
   <!-- Google Tag Manager -->
   <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NWNFV5"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -116,11 +108,13 @@
             <h3>Conteúdo da Disney, Nickelodeon, Cartoon Network e muito mais sem gastar seu plano de dados</h3>
           </div>
         </div>
+        <div class="arrow">
+          <a class="glyphicon glyphicon-arrow-down bnt-down" href="#main"></a>
+        </div>
       </div>
     </header>
     <nav class="pk-navbar">
       <div class="container">
-      <a class="glyphicon glyphicon-arrow-down bnt-down" aria-hidden="true" href="#main"></a>
         <div class="navbar-header">
           <a class="navbar-brand" href="#pk-header">
             <img src="imgs/logo-playkids.png" class="logo-playkids" alt="PlayKids">

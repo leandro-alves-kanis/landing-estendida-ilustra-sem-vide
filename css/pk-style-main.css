@@ -102,8 +102,9 @@ strong{color: #fff568;}
 	text-indent: -9999px;
 	background-size: 100%;
 	padding: 32px 23px;
-	position: absolute;
-	margin-top: -60px;;
+	position: fixed;
+	bottom: -26px;
+	top: inherit;
 }
 .bnt-down:hover {background-image: url("../imgs/bnt-down-hover.png");}
 
@@ -193,7 +194,7 @@ strong{color: #fff568;}
 .toon img {
     width: 70%;
 }
-.affix{
+.pk-navbar.affix {
     top: 0;
 }
 .navbar-brand {
@@ -203,11 +204,23 @@ strong{color: #fff568;}
     margin-top: 21px;
 
 }
-.pk-navbar {
+.pk-navbar.affix-top{
+	opacity: 0;
+	height: 0;
+   	transition: height .25s ease-in-out;
+   	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+}
+.pk-navbar.affix{
 	height: 82px;
 	background-color: #FFF;
 	z-index: 9990;
 	width: 100%;
+   	opacity: 1;
+   	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
 }
 .pk-navbar img {
     margin: 0;
@@ -218,13 +231,7 @@ strong{color: #fff568;}
 	padding-bottom: 11px;
 	padding-top: 11px;
 }
-.affix-top.pk-arrow {
-	position: fixed;
-	bottom: 0;
-}
-.affix.pk-arrow {
-	position: relative;
-}
+
 .pk-navbar div:first-child{
 	position: relative;
 }
@@ -251,3 +258,4 @@ strong{color: #fff568;}
 	margin-left:-76px;
 	height:93px;
 }
+.arrow{display: none;}
