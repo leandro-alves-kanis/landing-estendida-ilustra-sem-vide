@@ -29,3 +29,18 @@
 .toon img{
     width: 70%;
 }
+
+.btn-lg.btn-cartoon {
+    font-size: 20px;
+}
+
+.btn-cartoon:before {
+    height: 88px;
+}
+
+.navbar-brand {
+    width: 153px;
+    margin-top: 5px;
+}
+
+.btn-caillou:before {margin-top: -35px; height:93px;}

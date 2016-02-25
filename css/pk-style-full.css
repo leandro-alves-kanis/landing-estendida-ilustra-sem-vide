@@ -35,3 +35,15 @@ header {padding-bottom: 0;}
 	top: 48px;
 	margin-left: 120px;
 }
+
+.btn-cartoon:before {
+    height: 88px;
+}
+
+.pk-navbar .btn-cartoon:before {
+    height: 60px;
+    margin-top:-26px;
+    margin-left: -75px;
+}
+
+.btn-caillou:before {margin-top: -35px; height:93px;}

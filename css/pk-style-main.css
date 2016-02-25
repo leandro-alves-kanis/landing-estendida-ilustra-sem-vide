@@ -199,8 +199,8 @@ strong{color: #fff568;}
 .navbar-brand {
     padding: 0;
     height: auto;
-    width: 108px;
-    margin-top: 16px;
+    width: 86px;
+    margin-top: 21px;
 
 }
 .pk-navbar {
@@ -231,4 +231,23 @@ strong{color: #fff568;}
 .navbar-header {
     width: 100%;
     margin: 0 !important;;
+}
+.btn-cartoon {
+    text-indent: 80px;
+}
+.btn-cartoon:before {
+	position: absolute;
+	display: inline;
+	overflow: hidden;
+	text-indent: 0;
+	margin-top: -41px;
+	margin-left: -88px;
+	height: 81px;
+}
+.btn-caillou:before {content: url("../imgs/caillou.png");}
+.btn-galinha:before {content: url("../imgs/galinha.png");}
+.btn-mickey:before {content: url("../imgs/mickey.png");}
+.btn-caillou:before {
+	margin-left:-76px;
+	height:93px;
 }

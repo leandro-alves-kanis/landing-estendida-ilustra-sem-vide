@@ -46,3 +46,20 @@ body {text-align: center !important;}
 .pk-navbar .btn-pk {font-size: 13px;margin-top: 10px;margin-bottom: 10px;letter-spacing: 0;padding-left: 10px;padding-right: 10px;;;
 
 }
+.btn-lg.btn-cartoon {
+	font-size: 15px;
+	letter-spacing: 0.06em;
+}
+
+.pk-navbar .btn-cartoon:before {
+	zoom:70%;
+	margin-left: -65px;
+	margin-top:-26px;
+	height:69px;
+}
+.pk-navbar .btn-cartoon {
+    text-indent: 38px;
+}
+.navbar-brand {
+    width: 86px;
+}
